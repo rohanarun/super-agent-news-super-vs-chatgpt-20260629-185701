@@ -1,0 +1,105 @@
+/* Typography */
+body {
+  margin: 0;
+  font-family: 'Satoshi', 'Geist', system-ui, -apple-system, sans-serif;
+  color: #0f172a;
+  background: #ffffff;
+}
+
+h1, h2, h3 {
+  font-family: 'Cabinet Grotesk', 'Geist', system-ui, sans-serif;
+}
+
+/* Hero */
+.hero {
+  padding: 4rem 2rem 6rem;
+  background: linear-gradient(180deg, #f8fafc, #ffffff);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 700;
+}
+
+.hero-content {
+  max-width: 960px;
+  margin: 4rem auto 0;
+}
+
+.hero-actions {
+  margin-top: 2rem;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn.primary {
+  background: #0f172a;
+  color: #ffffff;
+}
+
+.btn.secondary {
+  border: 1px solid #cbd5e1;
+  color: #0f172a;
+  margin-left: 0.5rem;
+}
+
+/* Bento grid */
+.bento {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 1.5rem;
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  grid-auto-flow: row dense; /* Explicit dense flow */
+}
+
+.tile {
+  grid-column: span 4;
+  background: #f8fafc;
+  border-radius: 16px;
+  padding: 1.5rem;
+}
+
+.tile-wide {
+  grid-column: span 8;
+}
+
+/* CTA */
+.cta-section {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+/* Sources */
+.sources {
+  padding: 3rem 2rem 5rem;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.sources ul {
+  padding-left: 1.2rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .bento {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .tile, .tile-wide {
+    grid-column: span 1;
+  }
+}
