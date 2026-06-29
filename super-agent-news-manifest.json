@@ -1,0 +1,48 @@
+{
+  "citations": [
+    {
+      "source": "OpenAI",
+      "title": "How agents are transforming work",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4wMHNYTEZhLU5SOXBrb1BCR1ZyUFdoVmhCVVZkdDdLd1ppekRnZkE5M1otaGxUVTZqSjlwZTk3WmJCYzE3ekctSW9MNEFZSXM1RmR1Wmlya3VXdkZjZGtJRkZIaXFFbk8wUEE?oc=5"
+    },
+    {
+      "source": "the-decoder.com",
+      "title": "ChatGPT keeps creeping toward becoming your AI personal assistant with new scheduled task controls",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVmR0MzIxWGRIVVFSbWVPM2IxQVVBZW8tTUhNaTBnbEF4ZXptV2t4bXNwcm1KR0NScFBRYnJOUG5ldUlHSXk5SVhkRkZmdkhULS1MVXVhUHpkZVk2SXBnNEZ2bFoySHg5Vnh4NDBieVJHM2VWeVhJazNiYUlWc2FQMU44R2Q1dUYxc0sxSXVoS09Nc3pfZXVUWmpqejhqV0tQb2JaQ1RRWDNFVEI4clhFM3ZmREsxSFVuU0lGb1pWWlY?oc=5"
+    },
+    {
+      "source": "blog.google",
+      "title": "Introducing computer use in Gemini 3.5 Flash",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVjllUkZKb0szb0oyXzd5NnNVdGlQZk9PYmNkWlQyU3VkdGpNNGFhaVVoRGdOaFB1dDNRbUVrMWRzdFRnc3JBZlZZUThFeHdjQTljTW1oVnJPU1p6MDU2b2lZQ2tsV0I5Q2NSeWdhd09FV0plYTB3NmdTRlZVbHlQQ3gzazZpOVYzMWV4QjQ4S0xnT0tickhIZVMzcTVWMjVOQ2xpS2dOZTFXUms4LTJ0Y2s0YU0?oc=5"
+    },
+    {
+      "source": "mdn",
+      "title": "grid-auto-flow CSS property",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-flow"
+    },
+    {
+      "source": "wearedevelopers.com",
+      "title": "Building a Bento Grid Layout with Modern CSS Grid",
+      "url": "https://www.wearedevelopers.com/en/magazine/682/building-a-bento-grid-layout-with-modern-css-grid-682"
+    }
+  ],
+  "design_plan": "Cinematic editorial comparison page. Hero with restrained motion, followed by dense CSS-grid bento sections using grid-auto-flow: dense to avoid gaps. Typography uses Satoshi/Geist stack. Motion via GSAP with guards. Emphasis on fairness to ChatGPT, then contrast with Super\u2019s computer-use cache advantage.",
+  "generated_at": "2026-06-29T18:57:08.237918+00:00",
+  "headline": "Super vs ChatGPT \u2014 When Agents Actually Use Your Computer",
+  "site_brief": {
+    "audience": "people comparing Super with ChatGPT",
+    "competitor": "ChatGPT",
+    "goal": "Create a fair but persuasive competitor comparison page for Super vs ChatGPT. Use supplied sources for current facts, avoid fake claims, and make the practical argument that Super is better suited for repeated computer-use work because its cache can lower repeated execution cost.",
+    "kind": "competitor_comparison",
+    "queries": [
+      "ChatGPT AI agent",
+      "ChatGPT AI assistant",
+      "ChatGPT automation",
+      "personal AI agents",
+      "computer use AI agent"
+    ],
+    "slug": "super-vs-chatgpt",
+    "title": "Super vs ChatGPT"
+  },
+  "summary": "A fair, editorial comparison for people evaluating ChatGPT as an AI agent. ChatGPT is broad and conversational; Super is purpose-built for repeated computer-use workflows with a reusable computer-use cache that lowers friction and cost over time."
+}
